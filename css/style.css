@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "Open-sans-Regular";
+  src: url(../img/Open_Sans/OpenSans-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: "Raleway-Light";
+  src: url(../img/Raleway/Raleway-Light.ttf) format("truetype"); }
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(../img/Raleway/Raleway-Regular.ttf) format("truetype"); }
+@font-face {
+  font-family: "Futura";
+  src: url(../img/futura-light-bt.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Segoe UI Regular"), url("../img/segoe-ui-4-cufonfonts-webfont/Segoe UI.woff") format("woff"); }
+/*********************
+variables
+**********************/
+/*********************
+basic styles
+**********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Raleway-Light";
+  font-weight: 300; }
+
+.wrapper {
+  width: 90%;
+  margin: auto; }
+
+.bg-light {
+  background: #ECECEC !important; }
+
+li {
+  list-style: none; }
+
+a {
+  color: black; }
+
+a:hover {
+  text-decoration: none; }
+
+/*************************
+homepage
+*************************/
+nav {
+  font-family: "Open-sans-Regular"; }
+  nav .navbar-nav a {
+    text-transform: uppercase; }
+
+.main {
+  background: url(../img/Homepage/Homepage_Hero-Image@2x.png);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px; }
+
+.slides .carousel-inner {
+  font-family: Raleway-Regular; }
+  .slides .carousel-inner .carousel-item:nth-of-type(1) h5, .slides .carousel-inner .carousel-item:nth-of-type(2) h5 {
+    color: #908E8F; }
+  .slides .carousel-inner .carousel-item .img-fluid {
+    height: 70vh !important; }
+  .slides .carousel-inner .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+    bottom: 15%; }
+    .slides .carousel-inner .carousel-caption h5 {
+      font-size: 18em;
+      opacity: .7;
+      color: white; }
+
+.text-block {
+  padding: 50px 0; }
+  .text-block .row h1 {
+    opacity: .5;
+    font-family: Segoe UI Regular; }
+  .text-block .row:nth-child(4) {
+    text-align: right; }
+
+.we-hear h1 {
+  font-size: 8em;
+  letter-spacing: 7px; }
+
+.hashtag h1 {
+  font-size: 6.5em;
+  letter-spacing: 6px; }
+@media (max-width: 758px) {
+  .hashtag {
+    font-size: 2em; } }
+
+.gallery img {
+  width: 100%;
+  margin: auto; }
+@media (max-width: 758px) {
+  .gallery {
+    font-size: 2em; } }
+
+footer {
+  padding: 100px 0; }
+
+.bikes .row {
+  padding-bottom: 100px; }
+  .bikes .row:nth-child(1) p {
+    color: black;
+    font-family: "Open-Sans-Regular"; }
+  .bikes .row:nth-child(1) p > img {
+    padding-left: 50px; }
+  .bikes .row .col-md-5 a {
+    position: relative;
+    right: 40px; }
+  .bikes .row .col-md-5 h2 {
+    position: relative;
+    right: 20px;
+    top: 5px; }
+  .bikes .row .col-md-5 h4 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding: 15px 0;
+    color: #908E8F;
+    font-family: "Open-Sans-Regular"; }
+  .bikes .row .col-md-5 h5 {
+    font-family: "Open-Sans-Regular";
+    font-size: 1em;
+    color: #908E8F; }
+  .bikes .row .col-md-5 button {
+    border: 1px solid #FF5D00;
+    border-radius: 0;
+    padding: 10px 62px; }
+
+.contact {
+  padding: 50px 0; }
+  .contact .col-md-5 h1 {
+    font-size: 3.5em;
+    color: #FF5D00;
+    font-family: "Raleway-Light";
+    padding-bottom: 30px; }
+  .contact .col-md-5 input[type="name"],
+  .contact .col-md-5 input[type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 45%; }
+  .contact .col-md-5 input[type="message"] {
+    border: none;
+    border-bottom: 1px solid black; }
+  .contact .col-md-5 hr {
+    background-color: black;
+    margin-top: 40px; }
+  .contact .col-md-5 button {
+    border: 1px solid #FF5D00;
+    border-radius: 0;
+    padding: 10px 62px; }
+  .contact .col-md-7 {
+    background: url(../img/ContactUs_Bike.png);
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+/*# sourceMappingURL=style.css.map */
